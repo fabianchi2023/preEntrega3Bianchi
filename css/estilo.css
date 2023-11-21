@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Audiowide', sans-serif;
+    background-image: url(../img/fondopagina.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedorInicio {  
+    width: 90%;
+    height: 90vh;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nav nav"
+      "main aside"
+      "footer footer";
+  }
+.nav{
+    grid-area: nav;
+    width: 100%;
+    height: 90px;
+    margin: 10px auto;
+    background: rgb(207,205,205);
+    background: linear-gradient(90deg, rgba(207,205,205,1) 0%, rgba(4,4,4,1) 45%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.nav img{
+    width: 100px;
+    margin: auto;
+    padding: 5px;
+}
+.nav .menu{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.nav .menu a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 0.6rem;
+}
+.nav .menu a:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+}
+.main { 
+    grid-area: main;
+    background-color: #b4aeae;
+    text-align: center;
+    width: auto;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.main h2{
+    text-decoration: underline;
+    margin: 50px auto;
+}
+.main .principal img{
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.main p{
+    margin: 25px;
+    padding: 10px auto;
+}
+.aside { 
+    grid-area: aside;
+    background-color: #b4aeae;
+    border-radius: 20px;
+    padding: 10px auto;
+    text-align: center;
+    opacity: 0.9;
+
+ }
+ .aside h4{
+    padding: 10px;
+    text-decoration: underline;
+ }
+ .aside .giraEuropa img{
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+ }
+.aside .paisesEuropa{
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+.aside .paisesEuropa li{
+    list-style-type: none;
+    text-align: center;
+    margin:20px auto;
+}
+.aside .paisesEuropa img{
+    width: 50px;
+    text-align: center;
+}
+.footer { 
+    grid-area: footer;
+    width: 100%;
+    height: 90px;
+    margin: 10px auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(4,4,4,1) 45%, rgba(207,205,205,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.footer .redesSociales{
+    display: flex;
+}
+.footer .redesSociales .rrss{
+    align-self: center;
+}
+.footer .redesSociales .rrss img{
+    width: 40px;
+}
+.footer h4{
+    color: #b4aeae;
+    align-self: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+.footer  img{
+    width: 100px;
+    margin: auto;
+    padding: 5px;
+    align-items: center
+}
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: main;
+    background-color: #b4aeae;
+    text-align: center;
+    width: auto;
+    border-radius: 20px;
+    opacity: 0.9;
+    }
+.tarjetas h2{
+    text-decoration: underline;
+    font-size: 2rem;
+    margin:30px;
+}
+.tarjetas p{
+    margin: 30px;
+    border:solid;
+    border-radius: 20px;
+}
+.tarjetas h3{
+        text-decoration: underline;
+        margin: 10px auto;
+    }
+.tarjetas .principal img{
+        margin: 10px auto;
+        width: 150px;
+        border-radius: 50%;
+    }
+.tarjetas .cantante{
+    border:solid;
+    margin: 20px;
+    border-radius: 20px;
+}
+.discos{
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 50px;
+}
+.discos h2{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.discos img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px black solid;
+    border-radius: 30px;
+}
+.discos h4{
+    text-align: center;
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+.historia .fotoantigua img{
+    width: 800px;
+    padding: 30px;
+    border-radius: 50px;
+}
+a{
+    color: black;
+}
