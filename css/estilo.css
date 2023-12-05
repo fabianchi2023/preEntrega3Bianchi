@@ -159,6 +159,7 @@ body{
     text-align: center;
     width: auto;
     border-radius: 20px;
+    border:solid #daa520 5px;
     opacity: 0.9;
     }
 .tarjetas h2{
