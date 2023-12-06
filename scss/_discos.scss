@@ -21,7 +21,9 @@
     border: 2px black solid;
     border-radius: 30px;
   }
-  
+  .discos img:hover{
+    transform: scale(1.1,1.1);
+  }
   .discos p {
     text-align: center;
     color: black;
