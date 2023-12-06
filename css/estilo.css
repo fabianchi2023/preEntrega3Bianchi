@@ -26,7 +26,8 @@ body {
 }
 
 a {
-  color: black;
+  color: goldenrod;
+  background-color: black;
 }
 
 .nav {
@@ -35,7 +36,7 @@ a {
   height: 90px;
   margin: 10px auto;
   background: #cfcdcd;
-  background: linear-gradient(90deg, #cfcdcd 0%, #040404 45%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(90deg, #cfcdcd 0%, #040404 15%, rgb(0, 0, 0) 100%);
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
@@ -85,6 +86,7 @@ a {
 }
 
 .main .principal img {
+  width: 75%;
   margin: 10px auto;
   border-radius: 20px;
 }
@@ -139,7 +141,7 @@ a {
   height: 90px;
   margin: 10px auto;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(4, 4, 4) 45%, rgb(207, 205, 205) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(4, 4, 4) 85%, rgb(207, 205, 205) 100%);
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
@@ -158,11 +160,15 @@ a {
   width: 40px;
 }
 
+.footer .redesSociales .rrss img:hover {
+  background-color: goldenrod;
+  border-radius: 20%;
+}
+
 .footer h4 {
   color: goldenrod;
   align-self: center;
   margin: 10px;
-  text-decoration: underline;
   font-weight: normal;
 }
 
@@ -260,7 +266,7 @@ a {
 }
 
 .historia .fotoantigua img {
-  width: 800px;
+  width: 75%;
   padding: 30px;
   border-radius: 50px;
 }

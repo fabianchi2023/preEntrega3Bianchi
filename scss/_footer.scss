@@ -5,7 +5,7 @@
     height: 90px;
     margin: 10px auto;
     background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(4, 4, 4) 45%, rgb(207, 205, 205) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(4, 4, 4) 85%, rgb(207, 205, 205) 100%);
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
@@ -20,15 +20,18 @@
     align-self: center;
   }
   
+  
   .footer .redesSociales .rrss img {
     width: 40px;
   }
-  
+  .footer .redesSociales .rrss img:hover {
+    background-color: goldenrod;
+    border-radius: 20%;
+  }
   .footer h4 {
     color: goldenrod;
     align-self: center;
     margin: 10px;
-    text-decoration: underline;
     font-weight: normal;
   }
   
