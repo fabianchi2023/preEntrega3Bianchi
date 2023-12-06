@@ -1,0 +1,30 @@
+ 
+  .discos {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 50px;
+  }
+  
+  .discos h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+  
+  .discos img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px black solid;
+    border-radius: 30px;
+  }
+  
+  .discos p {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    text-decoration: underline;
+  }
